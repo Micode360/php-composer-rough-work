@@ -1,0 +1,22 @@
+{
+    "name": "test/server",
+    "autoload": {
+        "psr-4": {
+            "Test\\Server\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "abaye miracle king",
+            "email": "abayemiracle@gmail.com"
+        }
+    ],
+    "scripts": {
+        "start": "php index.php" 
+    },
+    "require": {
+        "php": "^8.0",
+        "react/http": "1.3",
+        "react/event-loop": "1.1.1"
+    }
+}
